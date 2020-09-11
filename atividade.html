@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MultiCalculadora</title>
+		</br>
+		<meta charset-"utf-8">
+		<script src=script.js></script>
+		<link rel="stylesheet" type="text/css" href="estilo.css"
+	</head>
+	<body>
+		<form>
+			<div id= "opcoes">
+				<p>Multi Calculadora</p>
+			</div>
+			<div id="la">
+				<input type="radio" name="selecao" onclick="location.href = 'atividade.html'"/>IMC 
+				<input type="radio" name="selecao" onclick="location.href = 'retangulo.html'"/> Retangulo
+				<input type="radio" name="selecao" onclick="location.href = 'circulo.html'"/> Círculo			
+			</div>
+			<div id="caixa">
+				<label for="peso">Peso:</label>
+				<input id= "peso" name="Peso" type="number" class="alinhamento" 
+			</div>
+			<div>
+			</br>
+				<label for ="altura">Altura:</label>
+				<input id= "altura" type="number" name="Altura" class="alinhamento"
+			</div>
+			<div id="calcular">
+				<button type="button" onclick="calcularimc();">Calcular</button>				
+			</div>
+		</form>
+	</body>
+</html>
